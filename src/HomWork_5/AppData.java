@@ -2,23 +2,18 @@ package HomWork_5;
 
 import java.io.*;
 import java.util.ArrayList;
-
 public class AppData {
         private String[] header;
         private Integer[][] data;
-
          public String[] getHeader() {
          return header;
         }
-
         public void setHeader(String[] header) {
             this.header = header;
         }
-
         public Integer[][] getData() {
             return data;
         }
-
         public void setData(Integer[][] data) {
             this.data = data;
         }
